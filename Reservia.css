@@ -1,0 +1,39 @@
+h4
+{
+	font-weight: bold;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.header-title
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.hebergements
+{
+	margin: 0px 10px
+}
+.activités
+{
+	margin: 0px 10px;
+}
+.sinscrire
+{
+margin: 0px 10px
+}
