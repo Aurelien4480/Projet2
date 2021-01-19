@@ -24,10 +24,6 @@ ul
 	flex-direction: row;
 	justify-content: space-between;
 }
-.hebergements
-{
-	margin: 0px 10px
-}
 .activités
 {
 	margin: 0px 10px;
@@ -48,22 +44,25 @@ margin: 0px 10px
 	width: 70%;
 	display: flex;
 	flex-direction: column;
+	background-color: rgb(240,240,240);
 }
 .populaires
 {
 	margin: 10px;
 	width: 30%;
+	background-color: rgb(240,240,240);
 }
 .logement
 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .carte
 {
 	background-color: blue;
-	margin: 5px;
+	margin: 10px;
 	height: 300spx;
 	width: 210px;
 	flex: 1;
@@ -77,4 +76,49 @@ margin: 0px 10px
 {
 	display: flex;
 	flex-direction: row;
-}.footer
+}
+.assistance
+{
+	display: flex;
+	flex-direction: row;
+}
+.nos-hebergements
+{
+	list-style-type: none;
+}
+.auberge-la-cannebiere
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.hotel-du-port
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+.hotel-les-mouettes
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+.hotel-mer
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(annie-spratt-Eg1qcIitAuA-unsplash.jpg)
+}
+.auberge-panier
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(nicate-lee-kT-ZyaiwBe0-unsplash.jpg)
+}
+.chez-amina
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(febrian-zakaria-M6S1WvfW68A-unsplash.jpg)
+}
