@@ -137,6 +137,7 @@ margin: 0px 10px
 	background-image: url(emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	background-size: cover;
 }
 .coeur-eau
 {
@@ -145,6 +146,7 @@ margin: 0px 10px
 	background-image:url(aw-creative-VGs8z60yT2c-unsplash.jpg);
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	background-size: cover;
 }
 .tout-bleu-blanc
 {
@@ -153,6 +155,7 @@ margin: 0px 10px
 	background-image:url(febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	background-size: cover;
 }
 .carte-2
 {
@@ -169,42 +172,54 @@ margin: 0px 10px
 	background-image: url(reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 	height: 300px;
 	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .activité-marseille
 {
 	display: flex;
 	flex-direction: row;
+	font-weight: bold;
+
 }
 .carte-3
 {
 	width: 20%;
 	margin: 10px;
+	background-color: white;
 }
 .photo-pomegues
 {
 	width: 100%;
 	height: 125px;
 	background-image: url(paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .photo-frioul
 {
 	width: 100%;
 	height: 100px;
 	background-image: url(kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .photo-calanques
 {
 	width: 100%;
 	height: 300px;
 	background-image: url(kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .photo-notre-dame
 {
 	width: 100%;
 	height: 100px;
 	background-image: url(florian-wehde-xW9e8gdotxI-unsplash.jpg);
-
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .carte-image
 {
@@ -215,6 +230,7 @@ margin: 0px 10px
 {
 	font-weight: bold;
 	margin-left: 10px;
+	margin-top: 60px;
 }
 .titre-hebergements
 {
@@ -233,4 +249,47 @@ margin: 0px 10px
 .fas fa-star
 {
 	color: blue;
+}
+.photo-longchamp
+{
+	width: 100%;
+	height: 115px;
+	background-image: url(lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.frioul
+{
+	margin-top: 30px;
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
+}
+.longchamp
+{
+	margin-top: 50px;
+}
+.vieux-port
+{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
+}
+.pomegues
+{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
+}
+.calanques
+{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
+}
+.notre-dame
+{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
+}
+.longchamp
+{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 10px;
 }
