@@ -181,11 +181,12 @@ margin: 0px 10px
 	display: flex;
 	flex-direction: row;
 	font-weight: bold;
+	justify-content: space-between;
 
 }
 .carte-3
 {
-	width: 20%;
+	width: 23%;
 	margin: 10px;
 	background-color: white;
 }
@@ -292,4 +293,12 @@ margin: 0px 10px
 {
 	box-shadow: 5px 5px 15px black;
 	border-radius: 10px;
+}
+.pied
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+	background-color: rgb(212,212,212)
 }
