@@ -32,7 +32,8 @@ margin: 0px 10px
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between	
+	justify-content: space-between;
+	color: black;	
 }
 .hebergements
 {
@@ -48,7 +49,11 @@ margin: 0px 10px
 	margin: 10px;
 	width: 30%;
 	background-color: rgb(240,240,240);
-	border-radius: 15px
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
 }
 .logement
 {
@@ -59,11 +64,15 @@ margin: 0px 10px
 }
 .carte
 {
-	background-color: blue;
-	margin: 10px;
-	height: 300px;
-	width: 30%;	
+	background-color: white;
+	margin: 5px;
+	height: 270px;
+	width: 28%;	
 	border-radius: 10px;
+	background-size: cover;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
 }
 .liste-a-propos
 {
@@ -107,44 +116,53 @@ margin: 0px 10px
 {
 	width: 100%;
 	height: 150px;
-	background-image: url(annie-spratt-Eg1qcIitAuA-unsplash.jpg)
+	background-image: url(annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
 .auberge-panier
 {
 	width: 100%;
 	height: 150px;
-	background-image: url(nicate-lee-kT-ZyaiwBe0-unsplash.jpg)
+	background-image: url(nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
 .chez-amina
 {
 	width: 100%;
 	height: 150px;
-	background-image: url(febrian-zakaria-M6S1WvfW68A-unsplash.jpg)
+	background-image: url(febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 .hotel-soleil-matin
 {
 	width: 100px;
 	height: 175px;
-	background-image: url(emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)
-
+	background-image: url(emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 .coeur-eau
 {
 	width: 100px;
 	height: 175px;
-	background-image:url(aw-creative-VGs8z60yT2c-unsplash.jpg)
+	background-image:url(aw-creative-VGs8z60yT2c-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 .tout-bleu-blanc
 {
 	width: 100px;
 	height: 175px;
-	background-image:url(febrian-zakaria-sjvU0THccQA-unsplash.jpg)
+	background-image:url(febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 .carte-2
 {
 	display: flex;
-	margin: 10px;
+	margin: 30px;
 	border-radius: 10px;
+	text-decoration: none;
+	background-color: white;
+	padding: 5px;
+	color: black;
 }
 .photo-vieux-port
 {
@@ -180,4 +198,39 @@ margin: 0px 10px
 	width: 100%;
 	height: 300px;
 	background-image: url(kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+.photo-notre-dame
+{
+	width: 100%;
+	height: 100px;
+	background-image: url(florian-wehde-xW9e8gdotxI-unsplash.jpg);
+
+}
+.carte-image
+{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.afficher
+{
+	font-weight: bold;
+	margin-left: 10px;
+}
+.titre-hebergements
+{
+	margin-left: 10px;
+}
+.titre-populaire
+{
+	margin-left: 30px;
+}
+.hotel-prix
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.fas fa-star
+{
+	color: blue;
 }
