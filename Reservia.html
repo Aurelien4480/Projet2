@@ -5,6 +5,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="Reservia.css">
 		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Raleway & display = swap" rel = "feuille de style ">
 	</head>
 
 	<body>
@@ -27,13 +29,12 @@
 					<p><imput type="submit" value="rechercher"/>
 					</p>
 				</form>	
-				<ul>
-					<li>Filtres</li>
-					<li>Economique</li>
-					<li>Familial</li>
-
-					<li>Romantique</li>
-					<li>Animaux autorisés</li>
+				<ul class="filtres">
+					<li class="filtre">Filtres</li>
+					<li class="choix">Economique</li>
+					<li class="choix">Familial</li>
+					<li class="choix">Romantique</li>
+					<li class="choix">Animaux autorisés</li>
 				</ul>
 
 			</div>	
@@ -47,69 +48,75 @@
 							<div class="carte-image auberge-la-cannebiere"></div>
 							<h2>Auberge la cannebière</h2>
 							<p>Nuit à partir de 25 Euros</p>
-							<p>
+							<div class="etoiles">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="far fa-star"></i>
 								<i class="far fa-star"></i>
-							</p>							
+							</div>							
 						</a>	
 						<a href="" class="carte">	
 							<div class="carte-image hotel-du-port"></div>
 							<h2>Hotel du port</h2>
 							<p>Nuit à partir de 52 Euros</p>
-							<p>
-		
+							<div class="etoiles">		
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
-							</p>	
+							</div>	
 						</a>
 						<a href="" class="carte">
 							<div class="carte-image hotel-les-mouettes"></div>
 							<h2>Hotel les mouettes</h2>
 							<p>Nuit à partir de 76 Euros</p>
+							<div class="etoiles">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>								
+								<i class="far fa-star"></i>	
+							</div>								
 						</a>
 						
 					 	<a href="" class="carte">
 									<div class="carte-image hotel-mer"></div>
 									<h2>Hotel de la mer</h2>
 									<p>nuit à partir de 46 Euros</p>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="far fa-star"></i>
-									<i class="far fa-star"></i>
+									<div class="etoiles">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
 									
 						</a>	
 						<a href="" class="carte">	
 									<div class="carte-image auberge-panier"></div>
 									<h2>Auberge le Panier</h2>
 									<p>Nuit à partir de 23 Euros</p>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="far fa-star"></i>
-								
+									<div class="etoiles">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	
 						</a>
 						<a href="" class="carte">
 										<div class="carte-image chez-amina"></div>
 										<h2>Hotel chez Amina</h2>
 										<p>Nuit à partir de 96 Euros</p>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+										<div class="etoiles">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
 									
 						</a>
 				    </div>
@@ -197,7 +204,8 @@
 			</div>	
 
 		</section>
-		<footer class="pied">
+		
+		<footer>
 			<div class="a-propos">
 				<h2>A propos</h2>
 				<ul class="liste-a-propos">
