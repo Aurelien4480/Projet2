@@ -301,9 +301,10 @@ footer
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 80px;
+	margin-top: 120px;
 	background-color: #F2F2F2;
 	text-decoration: none;
+	color: black;
 }
 .etoiles
 {
@@ -315,7 +316,7 @@ footer
 }
 .filtres
 {
-	font-weight: bold;
+	font-weight: bolder;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -323,11 +324,48 @@ footer
 .choix
 {
 	margin: 0px 30px;
-	padding: 5px;
-	border: 2px black solid;
+	padding: 10px;
+	border: 2px rgb(217,217,217) solid;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-left: 30px;
 }
 .filtre
 {
 	margin-right: 20px;
 	padding: 5px;
+}
+.nav1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-decoration: none;
+}
+.activité
+{
+	margin-top: 20px;
+}
+.assistance2
+{
+	margin-right: 100px;
+}
+.liste-a-propos
+{
+	text-decoration: none;
+	font-weight: lighter;
+
+}
+li
+{
+	text-decoration: none;
+	font-weight: lighter;
+}
+.hebergements1
+{
+	margin-right: 40px;
+}
+.sinscrire
+{
+	margin-left: 40px;
 }
