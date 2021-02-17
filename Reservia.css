@@ -87,7 +87,7 @@ margin: 0px 10px
 .assistance
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 .auberge-la-cannebiere
 {
@@ -383,19 +383,6 @@ li
     justify-content: center;
     align-items: center
 }
-.fasfa-heart
-{
-	color:  #0065FC;
-
-}
-.fasfa-child
-{
-	color:  #0065FC;s
-}
-.fasfa-dog
-{
-	color:  #0065FC;
-}
 ul li a
 {
 	text-decoration: none;
@@ -403,4 +390,8 @@ ul li a
 .criteres
 {
 	padding: 0px 10px;
+}
+.choix i.fas
+{
+	color:  #0065FC;
 }
