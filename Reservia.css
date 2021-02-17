@@ -89,10 +89,6 @@ margin: 0px 10px
 	display: flex;
 	flex-direction: row;
 }
-.nos-hebergements
-{
-	list-style-type: none;
-}
 .auberge-la-cannebiere
 {
 	width: 100%;
@@ -324,16 +320,19 @@ footer
 .choix
 {
 	margin: 0px 30px;
-	padding: 10px;
 	border: 2px rgb(217,217,217) solid;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
-	padding-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-weight: bold;
 }
 .filtre
 {
 	margin-right: 20px;
 	padding: 5px;
+	font-weight: bold;
 }
 .nav1
 {
@@ -344,7 +343,7 @@ footer
 }
 .activité
 {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 .assistance2
 {
@@ -354,7 +353,6 @@ footer
 {
 	text-decoration: none;
 	font-weight: lighter;
-
 }
 li
 {
@@ -368,4 +366,41 @@ li
 .sinscrire
 {
 	margin-left: 40px;
+}
+.disponibles
+{
+	margin-top: 45px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.filtres li span
+{
+	background-color: rgb(222,237,255);
+	width: 40px;
+    height: 40px;
+	border-radius: 20px;
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+.fasfa-heart
+{
+	color:  #0065FC;
+
+}
+.fasfa-child
+{
+	color:  #0065FC;s
+}
+.fasfa-dog
+{
+	color:  #0065FC;
+}
+ul li a
+{
+	text-decoration: none;
+}
+.criteres
+{
+	padding: 0px 10px;
 }
