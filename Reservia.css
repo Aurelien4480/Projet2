@@ -321,12 +321,14 @@ footer
 {
 	margin: 0px 30px;
 	border: 2px rgb(217,217,217) solid;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	font-weight: bold;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
 }
 .filtre
 {
