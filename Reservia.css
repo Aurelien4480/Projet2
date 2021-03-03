@@ -79,16 +79,6 @@ margin: 0px 10px
 	text-decoration: none;
 	color: black;
 }
-.liste-a-propos
-{
-	display: flex;
-	flex-direction: column;
-}
-.assistance
-{
-	display: flex;
-	flex-direction: column;
-}
 .auberge-la-cannebiere
 {
 	width: 100%;
@@ -329,6 +319,7 @@ footer
 	font-weight: bold;
 	border-bottom-right-radius: 30px;
 	border-top-right-radius: 30px;
+	border-left: 0px;
 }
 .filtre
 {
@@ -353,7 +344,7 @@ footer
 }
 .liste-a-propos
 {
-	text-decoration: none;
+	
 	font-weight: lighter;
 }
 li
@@ -392,8 +383,31 @@ ul li a
 .criteres
 {
 	padding: 0px 10px;
+	margin: 0;
 }
 .choix i.fas
 {
 	color:  #0065FC;
+}
+footer ul
+{
+	display: flex;
+	flex-direction: column;
+}
+footer div
+{
+	
+	flex: 1;
+}
+footer div h2
+{
+	padding-left: 35px;
+}
+footer div ul
+{
+	padding-inline-start: 35px;
+}
+footer div li
+{
+	margin: 5px 0px;
 }
