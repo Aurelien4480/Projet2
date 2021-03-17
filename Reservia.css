@@ -472,4 +472,10 @@ footer a
 		flex-direction: column;
 		justify-content: flex-start;
 	}
+	.carte-image
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
 }
