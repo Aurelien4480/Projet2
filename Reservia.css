@@ -411,3 +411,48 @@ footer div li
 {
 	margin: 5px 0px;
 }
+.submit
+{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.fas .fa-map-marker-alt
+{
+	background-color: grey;
+}
+.submit
+{
+	background-color: blue;
+}
+footer a
+{
+	color: black;
+}
+.map
+{
+	background-color: #F2F2F2;
+	width: 40px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form
+{
+	display: flex;
+	height: 40px;
+}
+.form input[type="submit"]
+{
+	background-color: #0065FC;
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: none;
+	width: 90px;
+}
+.form input[type="text"]
+{
+	border: lightslategray;
+}
