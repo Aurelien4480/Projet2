@@ -355,6 +355,7 @@ li
 .hebergements1
 {
 	margin-right: 40px;
+	color: black;
 }
 .sinscrire
 {
@@ -455,4 +456,20 @@ footer a
 .form input[type="text"]
 {
 	border: lightslategray;
+}
+/*nouvelles regles si la fenetre fait moins de 1024px*/
+@media all and (max-width:1024px)
+{
+	.filtres
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.carte-2
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
 }
